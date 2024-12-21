@@ -1,0 +1,10 @@
+{
+    "name": "gemini-quickstart",
+    "version": "1.0.0",
+    "main": "./src/example.js",
+    "author": "aleu0091",
+    "license": "MIT",
+    "dependencies": {
+        "@google/generative-ai": "^0.8.0",
+    },
+}
