@@ -13,7 +13,7 @@ const safetySettings = [
     },
 ];
 
-const genAI = new GoogleGenerativeAI(require("../../config.json").geminiAPIKey); // 니네 지미나이 키 경로
+const genAI = new GoogleGenerativeAI(require("./key.json").geminiAPIKey); // 니네 지미나이 키 경로
 const systemInstructionPath = path.join(__dirname, "system_instruction.txt");
 
 const fileContent = fs.readFileSync(systemInstructionPath, "utf8");
